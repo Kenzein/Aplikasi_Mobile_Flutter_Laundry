@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:money_laundry/screens/auth_choice_page.dart';
+import 'package:money_laundry/screens/home_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -10,6 +11,7 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(title: 'Flutter Demo', home: AuthChoicePage());
+    // return const MaterialApp(title: 'Flutter Demo', home: AuthChoicePage());
+    return const MaterialApp(title: 'Flutter Demo', home: HomeScreen());
   }
 }
